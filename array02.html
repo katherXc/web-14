@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let grades=[70,50,84];
+        grades.push(35);
+        grades.push(100);
+        let sum = 0;
+        for(let i = 0; i < grades.length; i++)
+        {
+            sum += grades[i];
+        }
+
+        let result = sum / grades.length;
+        document.write("總和為" + sum + "<br>")
+        document.write("平均為" + result + "<br>")
+    </script>
+</body>
+</html>
